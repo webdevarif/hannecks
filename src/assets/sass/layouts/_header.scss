@@ -1,0 +1,32 @@
+.header{
+    z-index: 999;
+
+    .navbar-nav .nav-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: $fs-lg;
+    }
+    .navbar-nav .nav-item:not(.dropdown) .nav-link{
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            transition: all 0.2s ease-in-out;
+            width:0;
+            background: $dark;
+            height: 2px;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+        }
+
+        &:hover:after, &.active:after{
+            width:  var(--navbar-link-width, 100%);
+            @include media-breakpoint-up(lg){
+                --navbar-link-width: calc(100% - 1.5rem);
+            }
+        }
+    }
+}

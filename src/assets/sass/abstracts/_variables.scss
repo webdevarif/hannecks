@@ -1,0 +1,68 @@
+// CONTAINER
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1410px,
+);
+
+
+// NAVBAR
+$navbar-dark-color: $white;
+$navbar-light-color:  $gray-500;
+$navbar-nav-link-padding-x: 1rem;
+
+
+// HR
+$hr-opacity: 1;
+
+
+// Border Radius
+$border-radius: 0.25rem;
+$border-radius-lg: 1.5rem;
+
+$border-color: $gray-200;
+
+// Text Color
+$text-muted: $gray-500;
+
+// Accordion
+$accordion-button-active-bg:inherit;
+$accordion-button-active-color:inherit;
+$accordion-button-focus-box-shadow: none;
+
+// Card
+$card-border-color: transparent;
+$card-border-radius: 0.25rem;
+
+// Button
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 2rem;
+
+// Table
+$table-cell-padding-y: 1rem;
+$table-striped-bg: $gray-100;
+
+// Box Shadow
+$box-shadow-lg: 7.5px 12.99px 30px 0px rgba($dark, 0.1);
+
+// Check Box 
+$form-check-input-width: 1.4em;
+$form-check-input-border: 1px solid $border-color;
+$form-check-input-border-radius: 0.25rem;
+$form-check-label-color: $gray-900;
+$form-check-label-cursor: pointer;
+
+$navbar-nav-link-padding-x: 0.75rem;
+
+// Form Control
+$input-border-radius-lg: 0.25rem;
+$input-border-color: $border-color;
+$input-padding-y: .75rem;
+$input-padding-x: 1.5rem;
+$input-placeholder-color: #858585;
+
+
+// Dropdown
+$dropdown-border-color: $border-color;

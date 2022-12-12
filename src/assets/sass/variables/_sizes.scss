@@ -1,0 +1,53 @@
+
+// FONT SIZES
+$fs-xs:   11px;
+$fs-sm:   13px;
+$fs-md:   15px;
+$fs-lg:   16px;
+$fs-xl:   18px;
+$fs-2xl:  24px;
+$fs-3xl:  33px;
+$fs-4xl:  42px;
+$fs-5xl:  60px;
+
+// SIZES LIST
+$sizes-list : (
+  "xs": $fs-xs,
+  "sm": $fs-sm,
+  "md": $fs-md,
+  "lg": $fs-lg,
+  "xl": $fs-xl,
+  "2xl": $fs-2xl,
+  "3xl": $fs-3xl,
+  "4xl": $fs-4xl,
+  "5xl": $fs-5xl,
+) !default;
+
+
+// Spacers List
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2.5,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+) !default;
+
+// DISPLAY FONT SIZES
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);

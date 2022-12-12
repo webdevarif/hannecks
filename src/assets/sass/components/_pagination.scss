@@ -1,0 +1,21 @@
+.pagination-default {
+    gap: 0.5rem;
+
+    .page-link {
+        border: 0px;
+        color: $gray-800;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.5rem;
+
+        &.active{
+            background-color: $gray-100;
+        }
+    }
+
+    .page-item.disabled .page-link{
+        color: $gray-300;
+    }
+}
